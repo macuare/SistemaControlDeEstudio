@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="MATERIAS OFERTADAS.......Desarrollado por Ing. Cusatti Andy"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="carrera" max="32767" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="semestre" min="-2" pref="174" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="lista_docente" min="-2" pref="421" max="-2" attributes="1"/>
+                              </Group>
+                              <Component id="docente" alignment="1" min="-2" pref="421" max="-2" attributes="1"/>
+                          </Group>
+                          <Component id="asignaturas" alignment="0" min="-2" pref="633" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace min="0" pref="28" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="dias" min="-2" pref="137" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="capacidad" min="-2" pref="96" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="hasta" min="-2" pref="229" max="-2" attributes="0"/>
+                                  <Component id="desde" min="-2" pref="228" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                              <Component id="activar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="posicion" min="-2" pref="58" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="buscar" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="modificar" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="semestre" alignment="3" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="carrera" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="asignaturas" min="-2" pref="42" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="desde" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="hasta" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dias" alignment="3" min="-2" pref="36" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="capacidad" min="-2" pref="37" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lista_docente" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="docente" min="-2" pref="38" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="activar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="posicion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buscar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="modificar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="67" max="32767" attributes="0"/>
+          </Group>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="carrera">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="19">
+            <StringItem index="0" value="INGENIERIA MECANICA"/>
+            <StringItem index="1" value="LIC. EDUCACION INTEGRAL"/>
+            <StringItem index="2" value="LIC. CONTADURIA PUBLICA"/>
+            <StringItem index="3" value="LIC. ECONOMIA SOCIAL"/>
+            <StringItem index="4" value="TSU EN TURISMO"/>
+            <StringItem index="5" value="INGENIERIA AERONAUTICA"/>
+            <StringItem index="6" value="INGENIERIA CIVIL"/>
+            <StringItem index="7" value="INGENIERIA ELECTRICA"/>
+            <StringItem index="8" value="INGENIERIA ELECTRONICA"/>
+            <StringItem index="9" value="INGENIERIA DE SISTEMAS"/>
+            <StringItem index="10" value="INGENIERIA DE TELECOMUNICACIONES"/>
+            <StringItem index="11" value="TSU EN ENFERMERIA"/>
+            <StringItem index="12" value="LIC. EN ADMINISTRACION Y GESTION MUNICIPAL"/>
+            <StringItem index="13" value="LIC. EN ENFERMERIA"/>
+            <StringItem index="14" value="LIC. EN ADMINISTRACION DE DESASTRE"/>
+            <StringItem index="15" value="TSU EN MECANICA DENTAL"/>
+            <StringItem index="16" value="LIC. EN TURISMO"/>
+            <StringItem index="17" value="TSU EN COMUNICACIONES Y ELECTRONICA"/>
+            <StringItem index="18" value="TSU EN ANALISIS Y DISE&#xd1;O DE SISTEMAS"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Seleccione la carrera en donde desea ofertar la materia"/>
+        <Property name="name" type="java.lang.String" value="carrera" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="semestre">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="10">
+            <StringItem index="0" value="PRIMERO"/>
+            <StringItem index="1" value="SEGUNDO"/>
+            <StringItem index="2" value="TERCERO"/>
+            <StringItem index="3" value="CUARTO"/>
+            <StringItem index="4" value="QUINTO"/>
+            <StringItem index="5" value="SEXTO"/>
+            <StringItem index="6" value="SEPTIMO"/>
+            <StringItem index="7" value="OCTAVO"/>
+            <StringItem index="8" value="NOVENO"/>
+            <StringItem index="9" value="DECIMO"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Semestre de la carrera"/>
+        <Property name="name" type="java.lang.String" value="semestre" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="asignaturas">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Nombre de la materia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="desde">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1">
+            <StringItem index="0" value="vacio"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Hora de entrada de la materia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="hasta">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="1">
+            <StringItem index="0" value="vacio"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Hora de salida de la materia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DESDE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HASTA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="docente">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Nombre del docente a impartir la materia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Docente: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DIAS"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="dias">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="7">
+            <StringItem index="0" value="LUNES"/>
+            <StringItem index="1" value="MARTES"/>
+            <StringItem index="2" value="MIERCOLES"/>
+            <StringItem index="3" value="JUEVES"/>
+            <StringItem index="4" value="VIERNES"/>
+            <StringItem index="5" value="SABADO"/>
+            <StringItem index="6" value="DOMINGO"/>
+          </StringArray>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Dia en la que se vera la materia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="capacidad">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="35"/>
+        <Property name="toolTipText" type="java.lang.String" value="Cantidad maxima de alumnos que se pueden inscribir en esta seccion de acuerdo a la materia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CAPACIDAD"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="posicion">
+      <Properties>
+        <Property name="toolTipText" type="java.lang.String" value="Se coloca la posicion de la materia que se desea buscar. (Parametro que da el VISOR)"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="activar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Posicion"/>
+        <Property name="toolTipText" type="java.lang.String" value="Activa y desactiva las opciones de BUSCAR y MODIFICAR"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="buscar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BUSCAR"/>
+        <Property name="toolTipText" type="java.lang.String" value="Busca la materia asociada a la posicion donde se encuentra con todos sus parametros"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="modificar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MODIFICAR"/>
+        <Property name="toolTipText" type="java.lang.String" value="Modifica todos los valores de la  materia asociado a la posicion y luego se desactivan los controles"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="lista_docente">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="270">
+            <StringItem index="0" value="ABRAHAM SALAZAR, JORGE LUIS"/>
+            <StringItem index="1" value="ALARZE L&#xd3;PEZ, ALIRIO ANTONIO"/>
+            <StringItem index="2" value="ALVAREZ GUEVARA, ARACELYS YADIRA"/>
+            <StringItem index="3" value="ALVAREZ LE&#xd3;N, JULHAY JOSEFINA"/>
+            <StringItem index="4" value="ALVAREZ RUIZ, AREANNY GRACIELA"/>
+            <StringItem index="5" value="ANFUSO LUIZZO, CONCETTA ROSALINDA"/>
+            <StringItem index="6" value="APONTE AZUAJE, JOS&#xc9; ROMAN"/>
+            <StringItem index="7" value="APONTE BERNAL, YELITZA MAYORLI"/>
+            <StringItem index="8" value="ARIAS FLORES, CIXTO BERNARDO"/>
+            <StringItem index="9" value="ARIAS OLIVEROS, BETSABETH ROSY"/>
+            <StringItem index="10" value="ARTEAGA ROMERO, ALEXANDER EDUARDO"/>
+            <StringItem index="11" value="AVENDA&#xd1;O DE BERMUDEZ, NORKA VIRGINIA"/>
+            <StringItem index="12" value="BAPTISTA LE&#xd3;N, THAIS COROMOTO"/>
+            <StringItem index="13" value="BARCO LOYO, LUIS ANTONIO"/>
+            <StringItem index="14" value="BECERRA VIELMA, JAVIER EMILIO"/>
+            <StringItem index="15" value="BELLO D&#xcd;AZ, JUAN JOS&#xc9;"/>
+            <StringItem index="16" value="BELLO MEDINA, FELIX ANTONIO"/>
+            <StringItem index="17" value="BENCOMO DE HERN&#xc1;NDEZ, ORFAS NICOLASA"/>
+            <StringItem index="18" value="BLANCO BOYER, JOS&#xc9; MANUEL"/>
+            <StringItem index="19" value="BLANCO DE SOJO, CARMEN FELICIA"/>
+            <StringItem index="20" value="BOL&#xcd;VAR QUINTANA, TEODULO JOS&#xc9;"/>
+            <StringItem index="21" value="BRACHO VILLEGAS, JOS&#xc9; LUIS"/>
+            <StringItem index="22" value="BRICE&#xd1;O DE RIVAS, MIRIAM DEL CARMEN"/>
+            <StringItem index="23" value="BRITO ESPINOZA, MILAGRO DEL VALLE"/>
+            <StringItem index="24" value="BUSTILLO SALAZAR, CARMEN MARITZA"/>
+            <StringItem index="25" value="CABRERA BARRIOS, RAFAEL EDUARDO"/>
+            <StringItem index="26" value="CABRERA BRITO, FLOR DEL VALLE"/>
+            <StringItem index="27" value="CABRERA SOLANO, DHORYVEL MILAGROS"/>
+            <StringItem index="28" value="C&#xc1;CERES MEDINA, LUIS ALFREDO"/>
+            <StringItem index="29" value="CADENAS, ADELA MORAIRA"/>
+            <StringItem index="30" value="CANNATA GONZ&#xc1;LEZ, CARMEN INDIRA"/>
+            <StringItem index="31" value="CANO CORT&#xc9;S, RICARDO"/>
+            <StringItem index="32" value="C&#xc1;RDENAS RANGEL, LINDAYS CAROLINA"/>
+            <StringItem index="33" value="CARDOZO ROA, CARMEN IDALIA"/>
+            <StringItem index="34" value="CARDOZO TINOCO, CARMEN ROSA"/>
+            <StringItem index="35" value="CARRASCO, MARIANA"/>
+            <StringItem index="36" value="CARRASQUEL TORO, &#xc1;NGEL HUMBERTO"/>
+            <StringItem index="37" value="CARRILLO, MAR&#xcd;A ESPERANZA"/>
+            <StringItem index="38" value="CARRILLO LUJ&#xc1;N, ABDEL"/>
+            <StringItem index="39" value="CARVAJAL SALAZAR, ANA ZULIN"/>
+            <StringItem index="40" value="CASTELLANO ORTEGA, ALEXANDER JOS&#xc9;"/>
+            <StringItem index="41" value="CASTILLO APONTE, RAFAEL JOS&#xc9;"/>
+            <StringItem index="42" value="CASTILLO DE MILANO, JANNETTE JOSEFINA"/>
+            <StringItem index="43" value="CASTILLO SALAZAR, ORLANDO ENRIQUE"/>
+            <StringItem index="44" value="CEBALLOS P&#xc9;REZ, EYRA TERESA"/>
+            <StringItem index="45" value="CEPEDA CIFUENTES, &#xc1;LVARO JUNIOR"/>
+            <StringItem index="46" value="CHAPARRO G&#xd3;MEZ, YELITZI VANESSA"/>
+            <StringItem index="47" value="CHAVEZ MART&#xcd;NEZ, MIRIAN REGINA"/>
+            <StringItem index="48" value="CISNEROS SOSA, LAURA MARIELA"/>
+            <StringItem index="49" value="COBOS QUINTANA, YSLAIDA SOLANGE"/>
+            <StringItem index="50" value="COLMENARES ALFONZO, PABLO RAFAEL"/>
+            <StringItem index="51" value="COLMENARES ALVAREZ, HECTOR EDUARDO"/>
+            <StringItem index="52" value="CONSTANTINI, DEBORA"/>
+            <StringItem index="53" value="CONTRERAS NATERA, &#xc1;NGEL ANTONIO"/>
+            <StringItem index="54" value="CORREA MIRANDA, OSCAR ENRIQUE"/>
+            <StringItem index="55" value="CORREA P&#xc9;REZ, LUCIO ANTONIO"/>
+            <StringItem index="56" value="CROQUER MILANO, LUCIDIA CARIDAD"/>
+            <StringItem index="57" value="CUSATTI MACUARE, ANDY ALDELMARO"/>
+            <StringItem index="58" value="DE JES&#xda;S LE&#xd3;N, MIREYA"/>
+            <StringItem index="59" value="DEBIA HERNANDEZ, FRAY HERNAN"/>
+            <StringItem index="60" value="DELGADO, CRUZ EDGAR"/>
+            <StringItem index="61" value="DELGADO MENDOZA, DARKYS JANETH"/>
+            <StringItem index="62" value="DELGADO P&#xc9;REZ, ALBER EDUARDO"/>
+            <StringItem index="63" value="DEPABLOS ACEITUNO, YANIXA JOSEFINA"/>
+            <StringItem index="64" value="D&#xcd;AZ MONTES, ZAIDA"/>
+            <StringItem index="65" value="DUARTE BRICE&#xd1;O, MORELBA ELENA"/>
+            <StringItem index="66" value="DUARTE P&#xc9;REZ, ROSA ANDREINA"/>
+            <StringItem index="67" value="DUARTE P&#xc9;REZ, JES&#xda;S CLARET"/>
+            <StringItem index="68" value="DUR&#xc1;N JIMENEZ, JOS&#xc9; IRENE"/>
+            <StringItem index="69" value="DUR&#xc1;N MANZO, GLADYS ALINDA"/>
+            <StringItem index="70" value="ECHARRY GUTI&#xc9;RREZ, ASLEY BACH"/>
+            <StringItem index="71" value="ECHENIQUE BOL&#xcd;VAR, BELKYS SOLANGE"/>
+            <StringItem index="72" value="ESCALANTE HERRERA, LOURDES YAYRI"/>
+            <StringItem index="73" value="ESCOBAR ESCOBAR, NANCY CLARET"/>
+            <StringItem index="74" value="ESCOBAR RUIZ, DOUGLAS VIRGILIO"/>
+            <StringItem index="75" value="FERREIRA, ANA TERESA"/>
+            <StringItem index="76" value="FIGUEROA OSORIO, JUAN DIEGO"/>
+            <StringItem index="77" value="FLORES MANRIQUE, MIRIAM COROMOTO"/>
+            <StringItem index="78" value="FLORES NIEVES, RAFAEL"/>
+            <StringItem index="79" value="FUMERO DOMINGUEZ, ELIMAR TERESA"/>
+            <StringItem index="80" value="GALARZA TORRES, JAIDANA CATHERY"/>
+            <StringItem index="81" value="GALINDEZ GARC&#xcd;A, MIGDALIA COROMOTO"/>
+            <StringItem index="82" value="GAMBOA ARCHILA, WILLIAM FRANCISCO"/>
+            <StringItem index="83" value="GARC&#xcd;A BALLESTER, NEREIDA JOSEFINA"/>
+            <StringItem index="84" value="GARC&#xcd;A CAMPOS, AURY DE LOS &#xc1;NGELES"/>
+            <StringItem index="85" value="GARC&#xcd;A FERM&#xcd;N, YUDITH COROMOTO"/>
+            <StringItem index="86" value="GARC&#xcd;A HERN&#xc1;NDEZ, SERGIO RAFAEL"/>
+            <StringItem index="87" value="GARC&#xcd;A JAIME, LUIS"/>
+            <StringItem index="88" value="GARC&#xcd;A MAGO, CLEMYS DEL VALLE"/>
+            <StringItem index="89" value="G&#xd3;MEZ CAMACHO, ALBA LUCIA"/>
+            <StringItem index="90" value="G&#xd3;MEZ VIVAS, PATRICIA ALEJANDRA"/>
+            <StringItem index="91" value="GONZ&#xc1;LEZ, VILMA"/>
+            <StringItem index="92" value="GONZ&#xc1;LEZ GAMEZ, JUAN CARLOS"/>
+            <StringItem index="93" value="GONZ&#xc1;LEZ GONZ&#xc1;LEZ, MAR&#xcd;A DOLORES"/>
+            <StringItem index="94" value="GONZ&#xc1;LEZ RUIZ, XAVIER ALEJANDRO"/>
+            <StringItem index="95" value="GOTTOS PELAEZ, JES&#xda;S EDUARDO"/>
+            <StringItem index="96" value="GUAITA SANTODOMINGO, C&#xc9;SAR AUGUSTO"/>
+            <StringItem index="97" value="GUERRERO CASTILLO, JOS&#xc9; GEOVANNY"/>
+            <StringItem index="98" value="GUILL&#xc9;N MUJICA, ALEJANDRO"/>
+            <StringItem index="99" value="HALAWI DARWICHE, JULUD YELITZA"/>
+            <StringItem index="100" value="HALEG&#xdc;EY PORRA, LIBAN DEL CARMEN"/>
+            <StringItem index="101" value="HERNANDEZ BENCOMO, LEYDI"/>
+            <StringItem index="102" value="HERRAT DE SILVA, MAIQUEL YNOCENCIA"/>
+            <StringItem index="103" value="HERRERA APODACA, GRISEL VICTORIA"/>
+            <StringItem index="104" value="HERRERA CAMPOS, EVELIN MAR&#xcd;A"/>
+            <StringItem index="105" value="HERRERA ECHEZUR&#xcd;A, IN&#xc9;S MAR&#xcd;A"/>
+            <StringItem index="106" value="HERRERA HERAS, JUAN MANUEL"/>
+            <StringItem index="107" value="HERRERA SILVA, PILAR EUGENIA"/>
+            <StringItem index="108" value="HIDALGO ALVARADO, JOS&#xc9; AUGUSTO"/>
+            <StringItem index="109" value="KANDALAFT ORDO&#xd1;EZ, ALEJANDRO JOS&#xc9;"/>
+            <StringItem index="110" value="KHALIL BAKHOS, MAR&#xcd;A"/>
+            <StringItem index="111" value="LECUNA ROMERO, DIRAHISA MERCEDES"/>
+            <StringItem index="112" value="LE&#xd3;N ROJAS, FRANCYNAT"/>
+            <StringItem index="113" value="LINARES DE BARBOLINE, ISABEL TERESA"/>
+            <StringItem index="114" value="L&#xd3;PEZ, GLADYS MAR&#xcd;A"/>
+            <StringItem index="115" value="L&#xd3;PEZ GARC&#xcd;A, YILENA ANDREINA"/>
+            <StringItem index="116" value="L&#xd3;PEZ G&#xd3;MEZ, FRIORDALIZA"/>
+            <StringItem index="117" value="L&#xd3;PEZ GUAIRA, LAURA LIRALY"/>
+            <StringItem index="118" value="L&#xd3;PEZ INDRIAGO, JUAN JOS&#xc9;"/>
+            <StringItem index="119" value="L&#xd3;PEZ MUDARRA, REINALDO JOS&#xc9;"/>
+            <StringItem index="120" value="LOVERA BLANCO, JERMAIN JOS&#xc9;"/>
+            <StringItem index="121" value="LUCIANI RINC&#xd3;N, TEOTISTE MAR&#xcd;A"/>
+            <StringItem index="122" value="LUCIANI RINC&#xd3;N, YAMILETH ANG&#xc9;LICA"/>
+            <StringItem index="123" value="LUGO G&#xd3;MEZ, LUISA JOSEFINA"/>
+            <StringItem index="124" value="LUIS GONZ&#xc1;LEZ, CAROLINA"/>
+            <StringItem index="125" value="MACHADO ARRECHEDERA, JAVIER JOS&#xc9;"/>
+            <StringItem index="126" value="MACHADO PADR&#xd3;N, GLORIA ISABEL"/>
+            <StringItem index="127" value="MANAURE S&#xc1;NCHEZ, YULIBETH DUBRASCA"/>
+            <StringItem index="128" value="MAR&#xcd;N DE NICOLO, WENDOLYNE"/>
+            <StringItem index="129" value="MART&#xcd;NEZ ACOSTA, FELGRY JACKNIRY"/>
+            <StringItem index="130" value="MART&#xcd;NEZ LASCARRO, JAIRO ENRIQUE"/>
+            <StringItem index="131" value="MART&#xcd;NEZ MONTERO, RICHARD ALEXANDER"/>
+            <StringItem index="132" value="MART&#xcd;NEZ ROJAS, JOS&#xc9; CARLOS"/>
+            <StringItem index="133" value="MARVAL MANAURE, GERSON JOEL"/>
+            <StringItem index="134" value="MASTRANGELO L&#xd3;PEZ, SIM&#xd3;N EDUAR"/>
+            <StringItem index="135" value="MATHISON SALAZAR, ODRA KARYM"/>
+            <StringItem index="136" value="MAYORCA FERN&#xc1;NDEZ, RUBLIO JES&#xda;S"/>
+            <StringItem index="137" value="MEDINA, ANA JOSEFINA"/>
+            <StringItem index="138" value="MELCHOR BELTRAN, EDIOURKYS DEL VALLE"/>
+            <StringItem index="139" value="MENDIBLE S&#xc1;NCHEZ, ARNALDO COROMOTO"/>
+            <StringItem index="140" value="MERCH&#xc1;N REYES, DARWIZ JOS&#xc9;"/>
+            <StringItem index="141" value="MEZA DE BAGLIO, ANA GRACIELA"/>
+            <StringItem index="142" value="MEZA DE SU&#xc1;REZ, BLANCA DIOMIRA"/>
+            <StringItem index="143" value="MIJARES ROSAS, GRISEL DEL CARMEN"/>
+            <StringItem index="144" value="MINSERO AMARO, LILIANA DE LOURDES"/>
+            <StringItem index="145" value="MOLINA DE GUILLEN, MIRELYS JOSEFINA"/>
+            <StringItem index="146" value="M&#xd3;NACO D&#xb4;ANGELO, PANFILINO"/>
+            <StringItem index="147" value="MONROY DE GONZ&#xc1;LEZ, IRENE RAMONA"/>
+            <StringItem index="148" value="MONTAQUILA DE CHIRINOS, ANGELA ALIDA"/>
+            <StringItem index="149" value="MORALES MART&#xcd;NEZ, GIORGINA"/>
+            <StringItem index="150" value="MORALES ORDO&#xd1;EZ, LAURA MAR&#xcd;A"/>
+            <StringItem index="151" value="MORALES ORDO&#xd1;EZ, ANA REBECA"/>
+            <StringItem index="152" value="MORENO DE COLLAZO, ERCILIA TRINIDAD"/>
+            <StringItem index="153" value="MORENO REBOLLEDO, INDIRA ROSA"/>
+            <StringItem index="154" value="MORGADO CASA&#xd1;AS, JUANA MIGUELINA"/>
+            <StringItem index="155" value="MORILLO, FREDDY IV&#xc1;N"/>
+            <StringItem index="156" value="MUJICA OJEDA, GLADYS AMARILYS"/>
+            <StringItem index="157" value="MU&#xd1;OZ, RICHARD JOS&#xc9;"/>
+            <StringItem index="158" value="NARANJO MORILLO, JAIME JOS&#xc9;"/>
+            <StringItem index="159" value="NAVARRO REINA, ROCIO FRANCISCA"/>
+            <StringItem index="160" value="NIEVES, AUDREY DE JES&#xda;S"/>
+            <StringItem index="161" value="NIEVES DE FREITES, JENNIFER KARINA"/>
+            <StringItem index="162" value="NU&#xd1;EZ TENORIO, GREGORIA JOSEFINA"/>
+            <StringItem index="163" value="OCANDO CONTRERAS, CARLOS LUIS"/>
+            <StringItem index="164" value="OCANDO FRANCO, ANA MAR&#xcd;A"/>
+            <StringItem index="165" value="OROPEZA PLAZA, MANUEL FELIPE"/>
+            <StringItem index="166" value="OSORIO CARRASQUEL, EDGAR ANTONIO"/>
+            <StringItem index="167" value="OSORIO CARRASQUEL, MARJORIE ANTONIETTA"/>
+            <StringItem index="168" value="OSORIO RAM&#xcd;REZ, MAR&#xcd;A ALEXANDRA"/>
+            <StringItem index="169" value="OVALLES ALVARADO, CARLOS ARGENIS"/>
+            <StringItem index="170" value="PADR&#xd3;N S&#xc1;NCHEZ, V&#xcd;CTOR JOS&#xc9;"/>
+            <StringItem index="171" value="PAEZ DE RODR&#xcd;GUEZ, MYRIAM"/>
+            <StringItem index="172" value="PAEZ PENA, ODALYS COROMOTO"/>
+            <StringItem index="173" value="PALACIOS MART&#xd3;NEZ, NILSON"/>
+            <StringItem index="174" value="PALUMBO SUNIAGA, CAROLINA"/>
+            <StringItem index="175" value="PAPPATERRA MENDOZA, YSBEL NOEM&#xcd;"/>
+            <StringItem index="176" value="PARRA ALVARADO, LEA CAROLINA"/>
+            <StringItem index="177" value="PARRA RODR&#xcd;GUEZ, JUAN JOS&#xc9;"/>
+            <StringItem index="178" value="PARRAGA GARC&#xcd;A, HUGO"/>
+            <StringItem index="179" value="PATI&#xd1;O REQUENA, AURYS EGLEE"/>
+            <StringItem index="180" value="PEDR&#xc1; RODR&#xcd;GUEZ, JES&#xda;S ALEJANDRO"/>
+            <StringItem index="181" value="PE&#xd1;A ROJAS, MAR&#xcd;A ALVINA"/>
+            <StringItem index="182" value="PE&#xd1;A ROJAS, JORGE ALEZANDER"/>
+            <StringItem index="183" value="PE&#xd1;A VILORIA, RICHAR ALEXIS"/>
+            <StringItem index="184" value="PERALTA GARC&#xcd;A, MARYURI ZAYDE&#xc9;"/>
+            <StringItem index="185" value="P&#xc9;REZ DA SILVA, ELVIC RAFAEL"/>
+            <StringItem index="186" value="P&#xc9;REZ DE AGUIRRE, SUSANA COROMOTO"/>
+            <StringItem index="187" value="P&#xc9;REZ GONZALEZ, YSAURA JOSEFINA"/>
+            <StringItem index="188" value="P&#xc9;REZ JUSTO, YARITZA DEL CARMEN"/>
+            <StringItem index="189" value="P&#xc9;REZ RODR&#xcd;GUEZ, ADRIANA LISETTE"/>
+            <StringItem index="190" value="PINTO DE CATAMO, YONMILEY JOSEFINA"/>
+            <StringItem index="191" value="PINTO PARRA, EYSRAEL"/>
+            <StringItem index="192" value="PLATA BRI&#xd1;EZ, LUIS EDUARDO"/>
+            <StringItem index="193" value="PRADET CALDERA, RODNEY JOS&#xc9;"/>
+            <StringItem index="194" value="RAM&#xcd;REZ BRACHO, MAURY YHADIRA"/>
+            <StringItem index="195" value="RAM&#xcd;REZ CA&#xd1;IZALES, MADELEYN"/>
+            <StringItem index="196" value="RAMOS ESCALONA, CARLOS ALBERTO"/>
+            <StringItem index="197" value="REINA ORTU&#xd1;O, ENNODIO JOS&#xc9;"/>
+            <StringItem index="198" value="RENWICK VARGAS, RAFAEL JOS&#xc9;"/>
+            <StringItem index="199" value="RETAMOZO MOTTA, JORGE ANTONIO"/>
+            <StringItem index="200" value="REY, LUZ HERMINIA"/>
+            <StringItem index="201" value="REYES KINSLER, CARLOS MANUEL"/>
+            <StringItem index="202" value="REYES MACHUCA, M&#xd3;NICA ALEXANDRA"/>
+            <StringItem index="203" value="REYES SANTAELLA, FRANCISCO JAVIER"/>
+            <StringItem index="204" value="RIVA D&#xcd;AZ, MORIELBA"/>
+            <StringItem index="205" value="RIVAROLI BELTR&#xc1;N, EVELING MAR&#xcd;A"/>
+            <StringItem index="206" value="RIVAS MEDINA, CARLOS JOS&#xc9;"/>
+            <StringItem index="207" value="RIVAS TALAVERA, LORELY DEL VALLE"/>
+            <StringItem index="208" value="ROBLES CEPEDA, MIGUEL &#xc1;NGEL"/>
+            <StringItem index="209" value="RODR&#xcd;GUEZ AGUILERA, JOYCE GREGORIO"/>
+            <StringItem index="210" value="RODR&#xcd;GUEZ BOGADO, JOSEANY JACQUELINE"/>
+            <StringItem index="211" value="RODR&#xcd;GUEZ COLMENARES, NICOLAS ALFONSO"/>
+            <StringItem index="212" value="RODR&#xcd;GUEZ DE BOL&#xcd;VAR, KARINA COROMOTO"/>
+            <StringItem index="213" value="RODR&#xcd;GUEZ D&#xcd;AZ, WALCELIO ANTONIO"/>
+            <StringItem index="214" value="RODR&#xcd;GUEZ GONCALVEZ, WALTER BERNARDO"/>
+            <StringItem index="215" value="RODR&#xcd;GUEZ HERRERA, HUMBERTO"/>
+            <StringItem index="216" value="RODR&#xcd;GUEZ P&#xc9;REZ, MAR&#xcd;A DE LOURDES"/>
+            <StringItem index="217" value="RODR&#xcd;GUEZ VALERA, ALICIA EDUVIGIS"/>
+            <StringItem index="218" value="ROJAS MU&#xd1;OZ, OMAIRA JOSEFINA"/>
+            <StringItem index="219" value="ROJAS TORRENS, LIZMAR DEL VALLE"/>
+            <StringItem index="220" value="ROJAS ZABRANO, SUGHEIS CAROLINA"/>
+            <StringItem index="221" value="ROMERO DE ECHARRI, MARIA ANGELICA"/>
+            <StringItem index="222" value="RUIZ HERRERA, SARAY AURORA"/>
+            <StringItem index="223" value="RUIZ VALLADARES, FRANCISCO JOSE"/>
+            <StringItem index="224" value="S&#xc1;CHEZ A&#xd1;EZ, LUIS ALFONZO"/>
+            <StringItem index="225" value="SALAZAR BARRAEZ, BERTHELENA"/>
+            <StringItem index="226" value="SALAZAR PALMA, EDGAR JOS&#xc9;"/>
+            <StringItem index="227" value="SALAZAR P&#xc9;REZ, ARLEN DEL CARMEN"/>
+            <StringItem index="228" value="SALINAS FERN&#xc1;NDEZ, MARLENE GUADALUPE"/>
+            <StringItem index="229" value="S&#xc1;NCHEZ, EDGAR"/>
+            <StringItem index="230" value="SANCHEZ ARVEL&#xc1;EZ, HILDA ROSA"/>
+            <StringItem index="231" value="S&#xc1;NCHEZ CASTILLO, OMAIRA YULIMA"/>
+            <StringItem index="232" value="S&#xc1;NCHEZ MORALES, LUSBEL MARGARITA"/>
+            <StringItem index="233" value="SCOTT DE PERAZA, SILVIA YAMILET"/>
+            <StringItem index="234" value="SCOTT DE RAMOS, TERESA MARIBEL"/>
+            <StringItem index="235" value="SCUOPPO SANDOMENICO, ELENA MAR&#xcd;A"/>
+            <StringItem index="236" value="SEGOVIA MAYORCA, JOSE DE LA TRINIDAD"/>
+            <StringItem index="237" value="SEIJAS BONNIER, HILARION RAM&#xd3;N"/>
+            <StringItem index="238" value="SISO, ALEN JOS&#xc9;"/>
+            <StringItem index="239" value="SOLORZANO DE GONCALVEZ, ROSA MARISEL"/>
+            <StringItem index="240" value="SORIANO ANDREA, RAFAEL ELEAZAR"/>
+            <StringItem index="241" value="SU&#xc1;REZ BARCARCEL, EFREN JAVIER"/>
+            <StringItem index="242" value="TAGLIAFERRO DE PE&#xd1;A, MARIELA JOSEFINA"/>
+            <StringItem index="243" value="TELISSE JAHUBIAN, BRIGITTE"/>
+            <StringItem index="244" value="TELLEZ COLMENARES, SONIA CRISTINA"/>
+            <StringItem index="245" value="TORO FIGUEREDO, YELITZA ESTHER"/>
+            <StringItem index="246" value="TORO MORA, ANARELYS"/>
+            <StringItem index="247" value="TROVAT ASCANIO, VALENTINA ANTONELY"/>
+            <StringItem index="248" value="URRACA PI&#xd1;ERO, LUCIO J&#xd3;SE"/>
+            <StringItem index="249" value="URUETA TORO, NANCY ESTHER"/>
+            <StringItem index="250" value="VALBUENA GUERRERO, VICENTE DE JES&#xda;S"/>
+            <StringItem index="251" value="VALDEZ HEREDIA, MIGUEL &#xc1;NGEL"/>
+            <StringItem index="252" value="V&#xc1;SQUEZ BELISARIO, YRAMA JOSEFINA"/>
+            <StringItem index="253" value="V&#xc1;SQUEZ UVIEDO, ADALY ISAHAMS"/>
+            <StringItem index="254" value="VEGA CARRUYO, BLANCA NATHALY"/>
+            <StringItem index="255" value="VEGAS PACHECO, LUIS ERNESTO"/>
+            <StringItem index="256" value="VEL&#xc1;SQUEZ HUNG, KARIM SOF&#xcd;A"/>
+            <StringItem index="257" value="VEL&#xc1;SQUEZ LORENZO, LUIS ALEXANDER"/>
+            <StringItem index="258" value="VENTHENCOURT MORILLO, JUDITH COROMOTO"/>
+            <StringItem index="259" value="VERGARA PERNIA, NELS&#xd3;N JOS&#xc9;"/>
+            <StringItem index="260" value="VIELMA LINARES, DENIS JACKELIN"/>
+            <StringItem index="261" value="VILLALOBOS PAZ, FATIMA COROMOTO"/>
+            <StringItem index="262" value="VILLAMIZAR NIEVES, CLARIZA MARGOTH"/>
+            <StringItem index="263" value="VIVAS RU&#xcd;Z, DIX&#xd3;N JOEL"/>
+            <StringItem index="264" value="YANEZ, ADRIANA"/>
+            <StringItem index="265" value="ZAMBRANO ARAQUE, OSWALDO RAFAEL"/>
+            <StringItem index="266" value="ZAMBRANO BARRERA, ZULAY MERCEDES"/>
+            <StringItem index="267" value="ZAMBRANO CARRILLO, ANG&#xc9;LICA MAR&#xcd;A"/>
+            <StringItem index="268" value="ZAMBRANO DE &#xc1;LVAREZ, NUBIA MAR&#xcd;A"/>
+            <StringItem index="269" value="ZARA ARIAS, ANA JOSEFINA"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="visor" min="-2" pref="100" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="atras" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="siguiente" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="salones" alignment="1" min="-2" pref="199" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="periodo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="guardar" min="-2" pref="160" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="periodo" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="salones" min="-2" pref="59" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="siguiente" alignment="3" min="-2" max="-2" attributes="1"/>
+                      <Component id="atras" alignment="3" min="-2" max="-2" attributes="1"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="visor" min="-2" pref="35" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="guardar" min="-2" pref="74" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="salones">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="36" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="IM-101"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="periodo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="36" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="2-2011"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="visor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="VISOR"/>
+            <Property name="toolTipText" type="java.lang.String" value="Herramienta para visualizar las materias ofertadas"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="atras">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="atras"/>
+            <Property name="toolTipText" type="java.lang.String" value="Retrocede en secciones"/>
+            <Property name="name" type="java.lang.String" value="atras" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="siguiente">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="siguiente"/>
+            <Property name="toolTipText" type="java.lang.String" value="Avanza en secciones"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="guardar">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="GUARDAR"/>
+            <Property name="toolTipText" type="java.lang.String" value="Guarda todos los parametros de la materia a ofertar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SECCION"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
