@@ -34,7 +34,7 @@ private LinkedList <String> contenedor = new LinkedList<>();
 private imagenes ima;
 
     public Archivos() {
-        System.out.println("Cagando archivos");
+        System.out.println("Cagando archivos ...");
         ima = new imagenes();
     }
 
