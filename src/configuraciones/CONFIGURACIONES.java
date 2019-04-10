@@ -135,6 +135,8 @@ public class CONFIGURACIONES extends javax.swing.JFrame {
             resultado = sentencia.executeQuery("SELECT * FROM control_de_estudio.notas_cet_2007");
             metadatos = (ResultSetMetaData) resultado.getMetaData();
             //resultado.next();
+           
+            
             this.getInformacion().setModel(d);
 
            // System.out.println("RESPUESTA");

@@ -111,19 +111,7 @@ public void tabla_habilitadas(JTable tabla, LinkedList datos){
 tabla.setAutoCreateColumnsFromModel(false);
 tabla.setAutoCreateRowSorter(true);
 
-/*TableRowSorter<TableModel> orden = new TableRowSorter<TableModel>(tabla.getModel());
-tabla.setRowSorter(orden);
-Comparator<String> comparador= new Comparator<String>(){
-    public int compare(String s1, String s2){
-        String[] cadena1 = s1.split("\\s");
- *      String[] cadena2 = s2.split("\\s");
- *      return cadena1[cadena1.length - 1].compare(cadena2[cadena2 - 1]);
-    }
- };
- */
-
-
-
+     
      }//fin recorricdo del LinkedList
 
 }//fin metodo de autorizadas

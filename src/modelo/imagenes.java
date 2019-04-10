@@ -208,9 +208,7 @@ return respuesta;
 
 
 public void ventana_ruta(String titulo){
-  //  JFrame v = new JFrame("SELECCION DE RUTA");
-    
-
+ 
     dialogo = new JDialog();
     dialogo = new JDialog(new JFrame(),titulo,true);
     dialogo.setDefaultCloseOperation(dialogo.DISPOSE_ON_CLOSE);
@@ -232,17 +230,12 @@ public void ventana_ruta(String titulo){
                         registro_masivo rm = new registro_masivo();
                         progreso p = new progreso();
 
-                    //    segundo_plano sp = new segundo_plano(rm, p, 1); //analizando como implementarlo
-                    //    sp.execute();
+               
                         dialogo.dispose();
                 }
             });
     dialogo.setVisible(true);
 
-    
-
-    //v.pack();
-   // v.setVisible(true);
 }
 
 

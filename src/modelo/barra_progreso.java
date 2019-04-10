@@ -72,21 +72,6 @@ public class barra_progreso extends SwingWorker<Double, Integer>{
     }//fin recorrido listado por estudiantes
 
 
-
-        /*for (int i = 0; i < 100; i++) {
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                System.out.println("interrumpido");
-            }
-
-            // Se pasa valor para la barra de progreso. ESto llamara al metodo
-            // process() en el hilo de despacho de eventos.
-            publish(i + 1);
-        }*/
-
-        // Supuesto resultado de la tarea que tarda mucho.
-     //   return 100.0;
         progreso.setMaximum(100);
         return  100.0;
     }

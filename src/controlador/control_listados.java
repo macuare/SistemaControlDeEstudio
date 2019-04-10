@@ -86,8 +86,7 @@ public class control_listados implements ActionListener, WindowListener, ItemLis
                                                     l.getSeccion(),
                                                     l.getPeriodo_actual().getText());
                                           
-                          // rn.listado_no_inscritos(cbd.getConexion(), rl.getCarreras(),,rl.getPeriodo());//exportando dentro de la carpeta los estudiantes no inscritos
-                         // rl.aularios_carrera(cbd.getConexion(), g.getRl().getCarreras(), g.getSitio().getCurrentDirectory().getAbsolutePath(),g.getRl().getPeriodo());//distribucion de los aularios
+                         
                         }
                     };
                     Thread t = new Thread(rx, "listado_masivo_secciones");
